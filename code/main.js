@@ -127,7 +127,7 @@ player.action(() => {
 scene("finished", (count) => {
 	// receives score and display it
 	add([
-		text("All Done! Your breath count: " + count),
+		text("All Done!"),
     pos(width()/4),
 	]);
 });

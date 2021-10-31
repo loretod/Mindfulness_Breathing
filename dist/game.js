@@ -2744,7 +2744,7 @@ vec4 frag(vec3 pos, vec2 uv, vec4 color, sampler2D tex) {
   });
   scene("finished", (count2) => {
     add([
-      text("All Done! Your breath count: " + count2),
+      text("All Done!"),
       pos(width() / 4)
     ]);
   });
